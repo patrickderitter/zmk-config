@@ -14,3 +14,4 @@
 ---
 include:
   - board: bt60_v1_hs
+  - board: planck_rev6
