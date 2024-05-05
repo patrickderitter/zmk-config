@@ -36,7 +36,7 @@
                 &trans &trans &trans &trans &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &sys_reset
                 &trans    &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &bootloader
                 &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &trans &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT
-                &bt BT_SEL 0 &bt BT_SEL 1  &out OUT_TOG              &kp C_PP                            &trans   &trans   &trans &bt BT_CLR
+                &out OUT_TOG &bt &trans  &trans              &kp C_PP                            &trans   &trans   &trans &bt BT_CLR
             >;
         };
     };
