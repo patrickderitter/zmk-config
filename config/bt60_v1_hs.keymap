@@ -29,14 +29,14 @@
                 // |      |     |     |     |     |     |     |     | Ins |    | PrSc |    | Pause | RESET |
                 // |       |     |     |     |     |     |     |     |     |     | Home | PGUP |  BTLoader |
                 // | PrevTrck | Vo- | Vo+ | Mute |     |     |     |     |     | End | PGDN |     NextTrck |
-                // |  TOG | BT 1 |     |             Play/Pause             |     |      |       | BT  CLR |
+                // | BT 0 | BT 1 | TOG |             Play/Pause             |     |      |       | BT  CLR |
                 // -----------------------------------------------------------------------------------------
             bindings = <
                 &kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9 &kp  F10  &kp F11 &kp F12   &kp DEL &trans
                 &trans &trans &trans &trans &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &sys_reset
                 &trans    &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &bootloader
                 &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &trans &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT
-                &out OUT_TOG &bt BT_SEL 0  &trans              &kp C_PP                            &trans   &trans   &trans &bt BT_CLR
+                &bt BT_SEL 0 &bt BT_SEL 1 &out OUT_TOG              &kp C_PP         &trans   &trans   &trans &bt BT_CLR
             >;
         };
     };
