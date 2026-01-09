@@ -13,10 +13,8 @@
 #
 ---
 include:
-  - board: bt60_v1_hs
-  - board: planck_rev6
-  - board: nice_nano_v2
+  - board: bt60_hs
+  - board: nice_nano
     shield: splitkb_aurora_corne_left
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: splitkb_aurora_corne_right
-  - board: preonic_rev3
