@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: boardsource
-      url-base: https://github.com/boardsource
+      url-base: https://github.com/tmcarr
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -11,6 +11,6 @@ manifest:
       import: app/west.yml
     - name: Rechtek-zmk-config
       remote: boardsource
-      revision: main
+      revision: migrate-to-hwmv2
   self:
     path: config
