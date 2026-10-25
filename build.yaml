@@ -13,8 +13,9 @@
 #
 ---
 include:
-  - board: bt60_hs
-  - board: nice_nano
+  - board: bt60_hs//zmk
+  - board: nice_nano//zmk
     shield: splitkb_aurora_corne_left
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: splitkb_aurora_corne_right
+  - board: bs_lp_60//zmk
