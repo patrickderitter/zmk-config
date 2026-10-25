@@ -18,3 +18,4 @@ include:
     shield: splitkb_aurora_corne_left
   - board: nice_nano
     shield: splitkb_aurora_corne_right
+  - board: bs_lp_60
